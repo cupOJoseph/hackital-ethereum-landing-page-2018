@@ -1,0 +1,235 @@
+$small: 800px;
+$mid: 1080px;
+
+$hackital-black: #000000;
+$hackital-red: #ED2C3E;
+
+/* End of Global Variables */
+
+body {
+  background-color: $hackital-black;
+  font-family: "Helvetica Neue", Arial;
+  margin: 0;
+}
+
+#container {
+  margin: 0;
+  margin-bottom: 100px;
+  width: 100%;
+  #logo-container {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    .logo {
+      margin-top: 80px;
+      width: 108px;
+    }
+  }
+  #top-block {
+    background-color: $hackital-black;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    @media screen and (max-width: $small){
+    }
+    .title {
+      color: #FFF;
+      display: inline-block;
+      font-size: 3.8rem;
+      margin: 64px 0 0 0;
+      width: 63vw;
+      z-index: 2;
+      .apply-link {
+        color: $hackital-red;
+      }
+      &:nth-child(2) {
+        margin-top: 64px;
+      }
+      @media screen and (max-width: $mid){
+        font-size: 3rem;
+        margin: 80px 0 0 6px;
+        width: 64vw;
+      }
+      @media screen and (max-width: $small){
+        font-size: 2.2rem;
+        width: 92%;
+      }
+    }
+    .apply {
+      background-color: white;
+      border: none;
+      border-radius: 8px;
+      color: #000;
+      cursor: pointer;
+      display: block;
+      font-size: 2rem;
+      font-weight: 600;
+      margin: 0 auto;
+      margin-top: 64px;
+      padding: 24px 64px;
+      height: 64;
+      width: 300px;
+      .apply-link {
+        color: #000;
+        text-decoration: none;
+      }
+      &:hover {
+        background-color: $hackital-red;
+        color: white;
+      }
+    }
+  }
+  #image-block {
+    background-image: url("../images/image.png");
+    color: #FFF;
+    height: 480px;
+    width: 100%;
+    .about {
+      color: #FFFFFF;
+      font-size: 1.5rem;
+      margin: 0 auto;
+      margin-top: 280px;
+      text-align: center;
+      width: 40vw;
+      @media screen and (max-width: $mid){
+        width: 60vw;
+      }
+      @media screen and (max-width: $small){
+        font-size: 1.4rem;
+        width: 92%;
+      }
+      .link {
+        color: $hackital-red;
+        text-decoration: none;
+      }
+    }
+  }
+  #sponsor-block {
+    color: #FFF;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+    /* The Fukol CSS 'grid system' */
+    .fukol {
+      width: 100%;
+    }
+    .fukol-grid {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      margin-top: 80px;
+      width: 80%;
+
+      .sponsor-img {
+        background-color: none;
+      }
+      .one {
+        background-color: none;
+        background-image: url("../images/Raytheon.svg");
+        background-repeat: no-repeat;
+        background-size: 440px;
+        background-position: center;
+        height: 100px;
+        @media screen and (max-width: $small){
+          background-size: 240px;
+        }
+      }
+      .two {
+        background-color: none;
+        background-image: url("../images/hackharassment.jpg");
+        background-repeat: no-repeat;
+        background-size: 150px;
+        background-position: center;
+        height: 100px;
+      }
+      .three {
+        background-color: none;
+        background-image: url("../images/cisco.svg");
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position: center;
+        height: 100px;
+      }
+      .four {
+        background-color: none;
+        background-image: url("../images/facebook.png");
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position: center;
+        height: 100px;
+      }
+      .five {
+        background-color: none;
+        background-image: url("../images/cloudlock.png");
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position: center;
+        height: 100px;
+      }
+      .six {
+        background-color: none;
+        background-image: url("../images/mlh-logo.png");
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position: center;
+        height: 100px;
+      }
+      .seven {
+        background-color: none;
+        background-image: url("../images/Lit.png");
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position: center;
+        height: 100px;
+      }
+      .eight {
+        background-color: none;
+        background-image: url("../images/givebutter.png");
+        background-repeat: no-repeat;
+        background-size: 120px;
+        background-position: center;
+        height: 100px;
+      }
+      .nine {
+        background-color: none;
+        background-image: url("../images/agnes.png");
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: center;
+        height: 100px;
+      }
+    }
+
+    .fukol-grid > * {
+      flex: 1 0 10em;
+      margin: 1.5em;
+    }
+
+    .fukol-grid > *:first-child {
+      flex-basis: calc(100% - 5em);
+    }
+
+    /* Styles just for this demo */
+  }
+  #bottom-block {
+    color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    .footer-link {
+      color: white;
+      text-decoration: none;
+      &:hover {
+        border-bottom: 4px solid #FFF;
+      }
+    }
+    .copyright {
+      font-size: 1rem;
+      font-weight: 400;
+      margin-top: 80px;
+      opacity: 0.6;
+    }
+  }
+}
