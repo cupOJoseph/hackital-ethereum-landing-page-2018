@@ -25,7 +25,7 @@ body {
       display: inline-block;
       font-size: 3.8rem;
       margin: 64px 0 0 0;
-      width: 64vw;
+      width: 63vw;
       z-index: 2; }
       #container #top-block .title .apply-link {
         color: #ED2C3E; }
@@ -154,7 +154,7 @@ body {
         height: 100px; }
       #container #sponsor-block .fukol-grid .eight {
         background-color: none;
-        background-image: url("../images/givebutter.png");
+        background-image: url("../images/4ws.png");
         background-repeat: no-repeat;
         background-size: 120px;
         background-position: center;
