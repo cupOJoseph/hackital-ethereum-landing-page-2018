@@ -51,11 +51,11 @@ body {
       font-weight: 600;
       margin: 0 auto;
       margin-top: 64px;
-      padding: 24px 64px;
-      height: 64;
-      width: 300px; }
+      height: 64; }
       #container #top-block .apply .apply-link {
         color: #000;
+        padding: 64px;
+        line-height: 80px;
         text-decoration: none; }
       #container #top-block .apply:hover {
         background-color: #ED2C3E;
