@@ -102,7 +102,7 @@ body {
         background-color: none; }
       #container #sponsor-block .fukol-grid .one {
         background-color: none;
-        background-image: url("../images/Raytheon.svg");
+        background-image: url("../images/facebook.png");
         background-repeat: no-repeat;
         background-size: 440px;
         background-position: center;
@@ -114,7 +114,7 @@ body {
         background-color: none;
         background-image: url("../images/hackharassment.jpg");
         background-repeat: no-repeat;
-        background-size: 150px;
+        background-size: 160px;
         background-position: center;
         height: 100px; }
       #container #sponsor-block .fukol-grid .three {
@@ -126,14 +126,14 @@ body {
         height: 100px; }
       #container #sponsor-block .fukol-grid .four {
         background-color: none;
-        background-image: url("../images/facebook.png");
+        background-image: url("../images/drwr.png");
         background-repeat: no-repeat;
         background-size: 160px;
         background-position: center;
         height: 100px; }
       #container #sponsor-block .fukol-grid .five {
         background-color: none;
-        background-image: url("../images/cloudlock.png");
+        background-image: url("../images/cloudlock3.png");
         background-repeat: no-repeat;
         background-size: 160px;
         background-position: center;
