@@ -60,6 +60,27 @@ body {
       #container #top-block .apply:hover {
         background-color: #ED2C3E;
         color: white; }
+  #container #hh-block {
+    color: #FFF;
+    height: 480px;
+    width: 100%; }
+    #container #hh-block .about {
+      color: #FFFFFF;
+      font-size: 1.5rem;
+      margin: 0 auto;
+      margin-top: 40px;
+      text-align: center;
+      width: 40vw; }
+      @media screen and (max-width: 1080px) {
+        #container #hh-block .about {
+          width: 60vw; } }
+      @media screen and (max-width: 800px) {
+        #container #hh-block .about {
+          font-size: 1.4rem;
+          width: 92%; } }
+      #container #hh-block .about .link {
+        color: #ED2C3E;
+        text-decoration: none; }
   #container #image-block {
     background-image: url("../images/image.png");
     color: #FFF;
@@ -80,6 +101,23 @@ body {
           font-size: 1.4rem;
           width: 92%; } }
       #container #image-block .about .link {
+        color: #ED2C3E;
+        text-decoration: none; }
+    #container #image-block .hh {
+      color: #FFFFFF;
+      font-size: 1.5rem;
+      margin: 0 auto;
+      margin-top: 150px;
+      text-align: center;
+      width: 40vw; }
+      @media screen and (max-width: 1080px) {
+        #container #image-block .hh {
+          width: 60vw; } }
+      @media screen and (max-width: 800px) {
+        #container #image-block .hh {
+          font-size: 1.4rem;
+          width: 92%; } }
+      #container #image-block .hh .link {
         color: #ED2C3E;
         text-decoration: none; }
   #container #sponsor-block {
@@ -156,14 +194,14 @@ body {
         background-color: none;
         background-image: url("../images/4ws.png");
         background-repeat: no-repeat;
-        background-size: 120px;
+        background-size: 160px;
         background-position: center;
         height: 100px; }
       #container #sponsor-block .fukol-grid .nine {
         background-color: none;
         background-image: url("../images/agnes.png");
         background-repeat: no-repeat;
-        background-size: 100px;
+        background-size: 160px;
         background-position: center;
         height: 100px; }
     #container #sponsor-block .fukol-grid > * {

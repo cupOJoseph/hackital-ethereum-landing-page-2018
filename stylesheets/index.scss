@@ -79,6 +79,30 @@ body {
       }
     }
   }
+  #hh-block{
+      color: #FFF;
+      height: 480px;
+      width: 100%;
+      .about {
+        color: #FFFFFF;
+        font-size: 1.5rem;
+        margin: 0 auto;
+        margin-top: 40px;
+        text-align: center;
+        width: 40vw;
+        @media screen and (max-width: $mid){
+          width: 60vw;
+        }
+        @media screen and (max-width: $small){
+          font-size: 1.4rem;
+          width: 92%;
+        }
+        .link {
+          color: $hackital-red;
+          text-decoration: none;
+        }
+      }
+  }
   #image-block {
     background-image: url("../images/image.png");
     color: #FFF;
@@ -89,6 +113,25 @@ body {
       font-size: 1.5rem;
       margin: 0 auto;
       margin-top: 280px;
+      text-align: center;
+      width: 40vw;
+      @media screen and (max-width: $mid){
+        width: 60vw;
+      }
+      @media screen and (max-width: $small){
+        font-size: 1.4rem;
+        width: 92%;
+      }
+      .link {
+        color: $hackital-red;
+        text-decoration: none;
+      }
+    }
+    .hh{
+      color: #FFFFFF;
+      font-size: 1.5rem;
+      margin: 0 auto;
+      margin-top: 150px;
       text-align: center;
       width: 40vw;
       @media screen and (max-width: $mid){
