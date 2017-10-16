@@ -204,6 +204,20 @@ body {
         background-size: 160px;
         background-position: center;
         height: 100px; }
+      #container #sponsor-block .fukol-grid .ten {
+        background-color: none;
+        background-image: url("../images/innovation_office.png");
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position: center;
+        height: 100px; }
+      #container #sponsor-block .fukol-grid .elevin {
+        background-color: none;
+        background-image: url("../images/SA.png");
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position: center;
+        height: 100px; }
     #container #sponsor-block .fukol-grid > * {
       flex: 1 0 10em;
       margin: 1.5em; }
