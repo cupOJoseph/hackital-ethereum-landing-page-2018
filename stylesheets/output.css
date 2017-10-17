@@ -246,5 +246,13 @@ body {
       font-weight: 400;
       margin-top: 80px;
       opacity: 0.6; }
+  #container #schedule-block {
+    color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    align: center;
+    position: center;
+    text-align: center;
+    width: 80%; }
 
 /*# sourceMappingURL=output.css.map */
