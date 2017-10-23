@@ -225,6 +225,13 @@ body {
         background-size: 160px;
         background-position: center;
         height: 100px; }
+      #container #sponsor-block .fukol-grid .thirteen {
+        background-color: none;
+        background-image: url("../images/datascience.png");
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position: center;
+        height: 100px; }
     #container #sponsor-block .fukol-grid > * {
       flex: 1 0 10em;
       margin: 1.5em; }
@@ -250,8 +257,6 @@ body {
     color: white;
     margin: 0 auto;
     margin-top: 50px;
-    align: center;
-    position: center;
     text-align: center;
     width: 80%; }
 
