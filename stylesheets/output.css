@@ -138,7 +138,7 @@ body {
       width: 80%; }
       #container #sponsor-block .fukol-grid .sponsor-img {
         background-color: none; }
-      #container #sponsor-block .fukol-grid .one {
+      #container #sponsor-block .fukol-grid .fb {
         background-color: none;
         background-image: url("../images/facebook.png");
         background-repeat: no-repeat;
@@ -146,7 +146,7 @@ body {
         background-position: center;
         height: 100px; }
         @media screen and (max-width: 800px) {
-          #container #sponsor-block .fukol-grid .one {
+          #container #sponsor-block .fukol-grid .fb {
             background-size: 240px; } }
       #container #sponsor-block .fukol-grid .two {
         background-color: none;
@@ -228,6 +228,20 @@ body {
       #container #sponsor-block .fukol-grid .thirteen {
         background-color: none;
         background-image: url("../images/datascience.png");
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position: center;
+        height: 100px; }
+      #container #sponsor-block .fukol-grid .fourteen {
+        background-color: none;
+        background-image: url("../images/careerservices.png");
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position: center;
+        height: 100px; }
+      #container #sponsor-block .fukol-grid .seas {
+        background-color: none;
+        background-image: url("../images/SEAS.png");
         background-repeat: no-repeat;
         background-size: 160px;
         background-position: center;
