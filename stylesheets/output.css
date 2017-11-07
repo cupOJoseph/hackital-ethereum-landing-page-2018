@@ -246,6 +246,13 @@ body {
         background-size: 160px;
         background-position: center;
         height: 100px; }
+      #container #sponsor-block .fukol-grid .fifteen {
+        background-color: none;
+        background-image: url("../images/dealeron.png");
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position: center;
+        height: 100px; }
     #container #sponsor-block .fukol-grid > * {
       flex: 1 0 10em;
       margin: 1.5em; }
