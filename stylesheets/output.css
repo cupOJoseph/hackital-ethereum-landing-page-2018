@@ -20,6 +20,11 @@ body {
     margin: 0 auto;
     text-align: center;
     width: 100%; }
+    #container #top-block .footer-link {
+      color: white;
+      text-decoration: none; }
+      #container #top-block .footer-link:hover {
+        border-bottom: 4px solid #FFF; }
     #container #top-block .title {
       color: #FFF;
       display: inline-block;
