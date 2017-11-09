@@ -32,6 +32,13 @@ body {
     width: 100%;
     @media screen and (max-width: $small){
     }
+    .footer-link {
+      color: white;
+      text-decoration: none;
+      &:hover {
+        border-bottom: 4px solid #FFF;
+      }
+    }
     .title {
       color: #FFF;
       display: inline-block;
