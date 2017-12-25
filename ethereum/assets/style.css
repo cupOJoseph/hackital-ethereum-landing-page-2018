@@ -1,0 +1,20 @@
+.bg-color{
+  background-color: #EE4547;
+}
+
+body{
+  color: #FEFEFE;
+  display: grid;
+}
+
+.title{
+  align: center;
+}
+
+.spinner{
+  align: left;
+}
+
+.content{
+
+}
