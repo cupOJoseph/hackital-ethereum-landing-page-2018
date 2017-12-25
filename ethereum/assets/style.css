@@ -9,6 +9,7 @@ body{
 
 .title{
   align: center;
+  margin-bottom: 50px;
 }
 
 .spinner{
@@ -16,5 +17,5 @@ body{
 }
 
 .content{
-
+  margin-top: 50px;
 }
