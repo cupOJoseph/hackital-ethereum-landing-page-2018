@@ -11,6 +11,11 @@ body{
 
 .title{
   align: center;
+  font-weight: 700;
+}
+
+.summary{
+  max-width: 30%;
   font-weight: 900;
 }
 
