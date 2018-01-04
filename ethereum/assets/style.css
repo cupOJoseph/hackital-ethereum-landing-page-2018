@@ -5,11 +5,18 @@
 body{
   color: #FEFEFE;
   display: grid;
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
 }
 
 .title{
   align: center;
-  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.summary{
+  max-width: 30%;
+  font-weight: 900;
 }
 
 .spinner{
@@ -17,5 +24,5 @@ body{
 }
 
 .content{
-  margin-top: 50px;
+  font-weight: 900;
 }
