@@ -117,27 +117,3 @@ body > * {
   -webkit-transform: rotateY(-68deg);
           transform: rotateY(-68deg);
 }
-
-.other-pens {
-  position: absolute;
-  bottom: 1rem;
-}
-.other-pens strong {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  margin: auto;
-  display: block;
-  text-align: center;
-}
-.other-pens li, .other-pens a, .other-pens strong {
-  color: rgba(255, 255, 255, 0.8);
-}
-.other-pens ul {
-  list-style: none;
-  padding: 0;
-  margin-left: .8rem;
-}
-.other-pens a {
-  display: block;
-  padding: .4rem;
-}
