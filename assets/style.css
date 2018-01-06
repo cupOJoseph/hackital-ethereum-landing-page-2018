@@ -6,7 +6,8 @@ body{
   color: #FEFEFE;
   display: grid;
   font-family: 'Lato', sans-serif;
-  height: 100vh;
+  font-size: 125%;
+  height: 120vh;
 }
 
 a{
