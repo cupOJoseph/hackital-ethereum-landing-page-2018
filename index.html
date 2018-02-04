@@ -7,6 +7,10 @@
    <link rel="stylesheet" href="assets/style.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script
+			  src="http://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
 
    <title>Hackital Ethereum</title>
  </head>
@@ -14,7 +18,7 @@
 
    <div class="title"align="center">
      <h1>Hackital  Ethereum</h1>
-     <h2>Spring 2018</h2>
+     <h2>April 27 - 29, 2018</h2>
      <h2>Washington, DC</h2>
 
    </div>
@@ -46,7 +50,12 @@
    </div>
 
    <div class="content">
-     <p  align="center">Sign up coming soon.</p>
+     <form id="email-signup" >
+        <label for="email">Sign up for updates.</label>
+        <input type="email" name="email" placeholder="hacker@ethereum.org">
+        <br>
+        <button type="submit" name="submit-form" id="submit-form">Submit</button>
+     </form>
    </div>
 
    <div class="social">
@@ -54,7 +63,7 @@
           <div class="buttons">
             <a href="https://www.facebook.com/hackitalDC/" class="fb" title="Join us on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a href="https://twitter.com/hackital" class="tw" title="Join us on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <!--<a href="https://www.instagram.com/georgehacksgw/" class="insta" title="Join us on Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>-->
+            <!--<a href="#" class="insta" title="Join us on Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>-->
           </div>
         </div>
       </div>
@@ -63,5 +72,24 @@
      <a href="Fall-2017"><p>Hackital Fall 2017 Site</p></a>
      <p>Copyright Hackital 2018 - All Rights Reserved</p>
    </footer>
+   <script type="text/javascript">
+          var $form = $('#email-signup'),
+          url = 'https://script.google.com/macros/s/AKfycbxzeY4xayYf_g4sSrE0yhoeDX18WeYXZ5MJbKqN6NLdGGtje9M/exec';
+
+        $('#submit-form').on('click', function(e) {
+
+          console.log("hi");
+        e.preventDefault();
+        var jqxhr = $.ajax({
+          url: url,
+          method: "GET",
+          dataType: "json",
+          data: $form.serialize()
+        }).success(
+          console.log('Form submitted.')
+        );
+      });
+   </script>
+
  </body>
 </html>
