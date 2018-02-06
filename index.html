@@ -79,7 +79,6 @@
 
         $('#submit-form').on('click', function(e) {
 
-          console.log("hi");
         e.preventDefault();
         var jqxhr = $.ajax({
           url: url,
@@ -89,8 +88,9 @@
         }).success(
           console.log('Form submitted.')
         );
+        document.getElementById("email-signup").reset();
       });
-      document.getElementById("email-signup").reset();
+
    </script>
 
  </body>
