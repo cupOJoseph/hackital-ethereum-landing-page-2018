@@ -87,10 +87,10 @@
           dataType: "json",
           data: $form.serialize()
         }).success(
-          console.log('Form submitted.'),
-          $form.reset()
+          console.log('Form submitted.')
         );
       });
+      document.getElementById("email-signup").reset();
    </script>
 
  </body>
