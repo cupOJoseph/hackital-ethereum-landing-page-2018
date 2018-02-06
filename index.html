@@ -54,7 +54,7 @@
         <label for="email">Sign up for updates.</label>
         <input type="email" name="email" placeholder="hacker@ethereum.org">
         <br>
-  
+
         <input type="submit" name="submit-form" id="submit-form" value="Submit">
      </form>
    </div>
@@ -87,7 +87,8 @@
           dataType: "json",
           data: $form.serialize()
         }).success(
-          console.log('Form submitted.')
+          console.log('Form submitted.'),
+          $form.reset()
         );
       });
    </script>
