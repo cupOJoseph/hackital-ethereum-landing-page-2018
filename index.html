@@ -85,12 +85,12 @@
           url: url,
           method: "GET",
           dataType: "json",
-          data: $form.serialize()
-        }).success(
-          console.log('Form submitted.')
-        );
-        document.getElementById("email-signup").reset();
-      });
+          data: $form.serialize(),
+          success: function (rooms) {
+              console.log('Form submitted.');
+              document.getElementById("email-signup").reset();
+            }
+        });  });
 
    </script>
 
