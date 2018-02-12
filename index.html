@@ -56,9 +56,12 @@
         <br>
 
         <input type="submit" name="submit-form" id="submit-form" value="Submit">
+
      </form>
    </div>
-
+   <p style="display:none;" id="thanks">
+     Thanks, we'll let you know when applications open.
+   </p>
    <div class="social">
         <div class="effect thurio">
           <div class="buttons">
@@ -74,6 +77,7 @@
      <a href="Fall-2017"><p>Hackital Fall 2017 Site</p></a>
      <p>Copyright Hackital 2018 - All Rights Reserved</p>
    </footer>
+
    <script type="text/javascript">
           var $form = $('#email-signup'),
           url = 'https://script.google.com/macros/s/AKfycbxzeY4xayYf_g4sSrE0yhoeDX18WeYXZ5MJbKqN6NLdGGtje9M/exec';
@@ -89,6 +93,7 @@
           success: function (rooms) {
               console.log('Form submitted.');
               document.getElementById("email-signup").reset();
+              document.getElementById("thanks").style.display = "block";
             }
         });  });
 
